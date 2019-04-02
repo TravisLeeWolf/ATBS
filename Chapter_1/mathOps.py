@@ -28,3 +28,13 @@ print('Add 2+2 = 4')
 g = 2+2
 print(g)
 
+# Order of evaluation
+# ** * / // % + -
+print('2+3*6 = 20')
+h = 2+3*6
+print(h)
+
+print('(2+3)*6 = 30')
+i = (2+3)*6
+print(i)
+
