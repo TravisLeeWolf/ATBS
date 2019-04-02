@@ -1,0 +1,18 @@
+print() prints what is contained in the parenthesis on the screen
+input() reads the users keyboard input and evaluates it to a string
+len() counts the length of a string and ouputs an int vaule
+str() evaluates to a string variable
+int() evaluates to a int variable and will also round off the decimals in a float
+float() evaluates to a float variable
+
+Practice Questions
+1. * - / +
+2. spam
+3. int, string, float
+4. expressions are made up of variables, operators and functions
+5. expressions use functions to manipulate variables
+6. 21
+7. 'spamspamspam' and 'spamspamspam'
+8. variables cannot start with a number
+9. int(), float(), str()
+10. You cannot add variables of different types, change 99 to a string variable, str(99)
