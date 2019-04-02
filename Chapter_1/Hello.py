@@ -1,2 +1,3 @@
 print('Hello World')
-//Good job :)
+# Good job :)
+# Hey there =)
