@@ -17,3 +17,8 @@ j = 0
 while j < 5:
     print('Jimmy Five Times (' + str(j) +')')
     j = j + 1
+
+# For loop using stepping
+print()
+for k in range(5, -1, -1):
+    print(k)
