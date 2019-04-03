@@ -1,5 +1,0 @@
-Windows
-C:\Windows\system32\cmd.exe
-
-Python
-C:\Users\Travis Sensei\AppData\Local\Programs\Python\Python37\python.exe
