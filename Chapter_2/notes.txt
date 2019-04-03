@@ -1,0 +1,13 @@
+1. True, False
+2. not, and, or
+3. https://en.wikipedia.org/wiki/Truth_table
+4. False, False, True, False, False, True
+5. ==, !=, <=, >=, <, >
+6. The equal == evaluates a comparison while the assignment = assigns a value to a variable
+7. A condition is a boolean comparison where a program run code it the condition is met and runs a separate code after the conditon is met, counting loops
+8. if, if, else 
+9. questionNine.py
+10. Ctrl+C
+11. break ends that block of code, continue restarts the block
+12. range(start, stop, step)
+13. 
