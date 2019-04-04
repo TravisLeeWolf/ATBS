@@ -7,10 +7,10 @@ def collatz(number):
         answer = 3 * number + 1
     return answer
 
-# Get user input
 print('Let us use the collatz function.')
 print('Type a number that is odd or even.')
-# Here it has to run collatz() until the answer is 1
+# Get user input
+# Run collatz() until the answer is 1
 try:
     userNum = int(input())
     check = collatz(userNum)
@@ -20,5 +20,3 @@ try:
         print(check)
 except ValueError:
     print('Please type in a positive integer value.')
-
-# Call the function
