@@ -14,6 +14,7 @@ print('Type a number that is odd or even.')
 try:
     userNum = int(input())
     check = collatz(userNum)
+    print(check)
     while check != 1:
         check = collatz(check)
         print(check)
