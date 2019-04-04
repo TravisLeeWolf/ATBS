@@ -23,3 +23,6 @@ def getAnswer(answerNumber):
 r = random.randint(1,9)
 fortune = getAnswer(r)
 print(fortune)
+
+# Shortened version of the above function call
+print(getAnswer(random.randint(1,9)))
