@@ -1,0 +1,14 @@
+1. It breaks up the code into self contained chunks which help make debugging easier.
+2. Only when the function is called.
+3. def funcName():
+4. A function is the block of code while a call is to initiate the function.
+5. There is only one global scope and one local scope and a variable cannot be both.
+6. The variables a deleted.
+7. It's what the function outputs when called, yes.
+8. * None
+9. Using the global notation.
+10. It is it's own data type.
+11. Imports a given library
+12. spam.bacon()
+13. By using try and except
+14. Try: The code you want to run, except: The code when there's an error.
