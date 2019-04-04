@@ -1,7 +1,5 @@
 # Define the function
 def collatz(number):
-    # Add a variable to return
-    answer = 0
     # Using mod 2 to find if it is odd or even we can split the cases
     if number % 2 == 0:
         answer = number // 2
@@ -17,8 +15,7 @@ try:
     userNum = int(input())
     check = collatz(userNum)
     while check != 1:
-        collatz(userNum)
-    else:
+        check = collatz(check)
         print(check)
 except ValueError:
     print('Please type in a positive integer value.')
