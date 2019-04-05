@@ -1,0 +1,17 @@
+1. Square brackets, creation of an empty list
+2. spam[2] = 'hello'
+3. 'd'
+4. 'd'
+5. 'a', 'b', 'c'
+6. 1
+7. [3.14, 'cat', 11, 'cat', True, 99]
+8. [3.14, 11, 'cat', True]
+9. [] + [], [] * int
+10. append() adds a value to the end of a list, insert() adds it to the specified index
+11. remove(), del list[]
+12. Each value can be addressed, similar functions like len() and looping trough can be used
+13. Lists are mutable while tuples are immutable
+14. tuple(42,)
+15. tuple(list[]), list[tuple()]
+16. They contain references to the values
+17. copy.copy() only copies the first layer in a list, while copy.deepcopy() copies the entire list
