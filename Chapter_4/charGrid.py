@@ -1,10 +1,7 @@
 def showGrid(dispGrid):
     for i in range(len(dispGrid)):
         for j in range(len(dispGrid[i])):
-            if i == j:
-                print(dispGrid[i][j], end='')
-            else:
-                continue
+            print(dispGrid[j][i], end='')
         print()
 
 heart = [['.', '.', '.', '.', '.', '.'],
