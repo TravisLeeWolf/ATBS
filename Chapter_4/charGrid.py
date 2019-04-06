@@ -1,5 +1,5 @@
 def showGrid(dispGrid):
-    for i in range(len(dispGrid[0])):
+    for i in range(len(dispGrid[i])):
         for j in range(len(dispGrid)):
             print(dispGrid[j][i], end='')
         print()
