@@ -26,3 +26,5 @@ for i in range(9):
 
 # Call the funtion
 printBoard(theBoard)
+
+# Come back to this and complete win states
