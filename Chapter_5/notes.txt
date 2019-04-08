@@ -1,0 +1,8 @@
+1. dictionary = {}
+2. dictionary = {'foo':42}
+3. Lists store references to values while dictionaries store a key and the value
+4. You get a KeyError
+5. No difference, they can be used interchangably
+6. in spam will check if the key exists while in spam.values() will check the value
+7. spam.setdefault('black')
+8. import pprint, pprint.pprint()
