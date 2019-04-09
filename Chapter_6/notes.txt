@@ -1,0 +1,12 @@
+1. They are used in strings to manipulate them like adding a new line
+2. \n adds a new line, \r allows you to type on multiline strings
+3. Using """To add \"""
+4. "Is used instead of '' "
+5. """ By using 
+    triple quotes """
+6. e, Hello, Hello, lo world!
+7. HELLO, True, hello
+8. 'Remember,', 'remember,', 'the', 'fifth', 'of', 'November.'
+    'There-can-be-only-one.'
+9. s.rjust(), s.ljust(), s.center()
+10. s.strip(), s.rstrip(), s.lstrip()
