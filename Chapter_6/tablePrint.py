@@ -7,5 +7,9 @@ tableData = [['apples', 'oranges', 'cherries', 'banana'],
              ['dogs', 'cats', 'moose', 'goose']]
 
 # Function to print lists in a table
+def tableJustify(listItems):
+    for i in listItems:
+        
 
-# COMPLETE TOMORROW!
+# Call function
+tableJustify(tableData)
