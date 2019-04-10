@@ -16,12 +16,14 @@ def tableJustify(listItems):
                 stringLength = len(j)
             else:
                 continue
-    print(stringLength)
 
     # Finding the right column widths
-    for k in range(len(listItems)):
-        for l in listItems[k]:
-            print(l.rjust(stringLength), end=' ')
+    k = 0
+    for k in range(len(listItems[k])):
+        for l in range(len(listItems)):
+            print(listItems[l][k].rjust(stringLength), end='')
         print()
 # Call function
 tableJustify(tableData)
+
+# Function should change with different string lengths
