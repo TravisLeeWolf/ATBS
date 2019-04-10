@@ -8,8 +8,15 @@ tableData = [['apples', 'oranges', 'cherries', 'banana'],
 
 # Function to print lists in a table
 def tableJustify(listItems):
-    for i in listItems:
-        
+    # Finds the longest string lenght in the lol strings
+    stringLength = 0
+    for i in range(len(listItems)):
+        for j in listItems[i]:
+            if stringLength < len(j):
+                stringLength = len(j)
+            else:
+                continue
+    print(stringLength)
 
 # Call function
 tableJustify(tableData)
