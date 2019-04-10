@@ -12,3 +12,9 @@ mo = phoneNumRegex.search('My number is 415-555-4242.')
 print('The area code is ' + mo.group(1))
 print('The number without code is ' + mo.group(2))
 print('The full number is ' + mo.group(0))
+print()
+# mo.groups() returns a tupple of multiple values
+print('The list of the full number is:')
+print(mo.groups())
+
+# If the area code is encased in () then use the \( and \) escape characters
