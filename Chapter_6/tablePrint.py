@@ -18,5 +18,10 @@ def tableJustify(listItems):
                 continue
     print(stringLength)
 
+    # Finding the right column widths
+    for k in range(len(listItems)):
+        for l in listItems[k]:
+            print(l.rjust(stringLength), end=' ')
+        print()
 # Call function
 tableJustify(tableData)
