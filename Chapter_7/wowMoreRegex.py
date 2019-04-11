@@ -27,6 +27,5 @@ subText2 = 'Agent Alice told Agent Carol that Agent Eve knew Agent Bob was a dou
 agentNamesRegex = re.compile(r'Agent (\w)\w*')
 print(agentNamesRegex.sub(r'\1****', subText2))
 
-print
-
-# Managing complex regexes
+# Combining re.I, re.DOTALL and re.VERBOSE
+# someRegexValue = re.compile('foo', re.IGNORECASE | re.DOTALL | re.VERBOSE)
