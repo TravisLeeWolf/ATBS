@@ -29,6 +29,7 @@ emailRegex = re.compile(r"""(
 text = str(pyperclip.paste())
 matches = []
 # Finds all matches for phone number and adds to matches list
+# Remove quotes to test above function
 """
 for groups in phoneRegex.findall(text):
     # Groups the phone number into one complete number
