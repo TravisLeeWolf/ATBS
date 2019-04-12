@@ -1,0 +1,20 @@
+1. re.compile()
+2. Regex would need to iterte over multiple strings
+3. It returns the value of the searched item in a string, list or tuple
+4. regex.group() or re.groups()
+5. 0 covers the entire search item, 1 and 2 are their respective groups
+6. Use escape char \( \) and \.
+7. If there a multiple search items to return
+8. or
+9. A search item being optional or nongreedy findall
+10. * zero or more, + zero or one
+11. {3} looks for only 3, {3,5} looks for any range of 3 to 5
+12. \d numericals, \w alphanumeric, \s white spaces
+13. Not \d, not \w, not \s
+14. re.IGNORECASE
+15. . matches all except new line, re.DOTALL reads all new lines as well
+16. .* is a greedy findall, .*? is an nongreedy findall
+17. [a-z0-9]
+18. (X drummers)
+19. Allow formats to run multiple lines
+20.
