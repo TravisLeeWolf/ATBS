@@ -12,14 +12,10 @@ import re
 
 # These functions can run a search and check if .group() is True/False
 
-# TODO: Create regex to check uppercase and lowercase
+# Create regex to check uppercase and lowercase
 isUppercase = re.compile(r'[A-Z]+')
 isLowercase = re.compile(r'[a-z]+')
 isNumerical = re.compile(r'\d+')
-
-# TODO: Create regex to check for at least one digit
-
-# TODO: Loop to run trough each regex, if all True then accept password
 
 # Get user input
 def userInput():
@@ -27,7 +23,7 @@ def userInput():
     userInput = input()
     checkPassword(userInput)
 
-# Check length of input
+# Check password over regex formats 
 def checkPassword(password):
     if len(password) < 8:
         print('Password length is too short.')
