@@ -11,3 +11,8 @@ helloFile = open('S:\\Documents\\GitHub\\ATBS\\Chapter_8\\hello.txt')
 # Reading the file
 helloContent = helloFile.read()
 print(helloContent)
+helloFile.close()
+
+sonnetFile = open('.\\Chapter_8\\sonnet29.txt')
+print(sonnetFile.readlines())
+sonnetFile.close()
