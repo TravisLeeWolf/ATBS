@@ -2,7 +2,7 @@
 # savingPretty.py - Using the pprint library to save files
 
 # Import libraries
-import pprint
+import pprint, os, sys
 
 cats = [{'name' : 'Zophie', 'desc' : 'chubby'},
         {'name' : 'Pooka', 'desc' : 'fluffy'}]
@@ -15,3 +15,7 @@ fileObj.write('cats = ' + pprint.pformat(cats) + '\n')
 fileObj.close()
 
 # Import the created hisCats.py file
+sys.path.insert(0, '.\\Chapter_8\\hisCats.py')
+import hisCats
+
+print(hisCats.cats)
