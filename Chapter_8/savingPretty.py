@@ -13,9 +13,3 @@ fileObj.write('cats = ' + pprint.pformat(cats) + '\n')
 
 # Close the file
 fileObj.close()
-
-# Import the created hisCats.py file
-sys.path.insert(0, '.\\Chapter_8\\hisCats.py')
-import hisCats
-
-print(hisCats.cats)
