@@ -21,3 +21,5 @@ elif len(sys.argv) == 2:
 
 # Close any open files
 mcbShelf.close()
+
+# Figure out how to use the program
