@@ -1,0 +1,9 @@
+1. Relative to the programs absolute path
+2. The drive like C:\
+3. os.getcwd() gets the directory that the program is using, os.chdir() changes to the input directory
+4. . this directory, .. parent folder
+5. dirname C:\bacon\eggs, basename spam.txt
+6. r read, w write, a append
+7. It will write over the existing data
+8. read() gets a single string from the text while readline() gets a list separated by \n
+9. A dictionary
