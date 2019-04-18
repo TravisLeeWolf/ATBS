@@ -24,8 +24,11 @@ def userInput():
         regexStripWhite(userText)
 
 def regexStripWhite(inputText):
-    # TODO: Regex to strip L/R whitespaces
-    print('This should strip L/R whitespaces in: ' + inputText)
+    regexLeft = re.compile(r'^\s+')
+    leftStripped = regexLeft.sub('', inputText)
+    regexRight = re.compile(r'\s+$')
+    leftRightStripped = regexRight.sub('', leftStripped)
+    print(leftRightStripped + ' Done.')
 
 def regexStripInput(inputText, inputPhrase):
     # TODO: Regex to strip user phrase
