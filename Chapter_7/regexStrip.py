@@ -7,13 +7,29 @@
 # Import libraries
 import re
 
-randomText = 'Two plus two equals four.'
-
-# TODO: Create regex to remove whitespaces
-regexSpace = re.compile(r'\s', re.DOTALL)
-subText = '_'
-print(regexSpace.sub(subText, randomText))
-
-# TODO: Create function to accept user input and change regex format
-
 # TODO: Print out resulting string
+
+# Function to get user input and instructions
+def userInput():
+    print('This fuction strips a string of text according to the users input.\n')
+    print('Type in a string to be stripped:')
+    userText = input()
+    print('Type the phrase you want to strip: (Leave blank to strip L/R whitespaces)')
+    userPhrase = input()
+    if userPhrase != '':
+        print('Strip ' + userPhrase)
+        regexStripInput(userText, userPhrase)
+    else:
+        print('Strip L/R whitespaces')
+        regexStripWhite(userText)
+
+def regexStripWhite(inputText):
+    # TODO: Regex to strip L/R whitespaces
+    print('This should strip L/R whitespaces in: ' + inputText)
+
+def regexStripInput(inputText, inputPhrase):
+    # TODO: Regex to strip user phrase
+    print('This should strip: ' + inputText + ' of the char: ' + inputPhrase)
+
+# Call function
+userInput()
