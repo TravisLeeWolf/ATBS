@@ -7,8 +7,6 @@
 # Import libraries
 import re
 
-# TODO: Print out resulting string
-
 # Function to get user input and instructions
 def userInput():
     print('This fuction strips a string of text according to the users input.\n')
@@ -23,16 +21,19 @@ def userInput():
         print('Strip L/R whitespaces')
         regexStripWhite(userText)
 
+# Strips left and right white spaces
 def regexStripWhite(inputText):
     regexLeft = re.compile(r'^\s+')
     leftStripped = regexLeft.sub('', inputText)
     regexRight = re.compile(r'\s+$')
     leftRightStripped = regexRight.sub('', leftStripped)
-    print(leftRightStripped + ' Done.')
+    print(leftRightStripped)
 
+# Strips any user text
 def regexStripInput(inputText, inputPhrase):
-    # TODO: Regex to strip user phrase
-    print('This should strip: ' + inputText + ' of the char: ' + inputPhrase)
+    regexUser = re.compile(inputPhrase, re.DOTALL)
+    stripped = regexUser.sub('', inputText)
+    print(stripped)
 
 # Call function
 userInput()
