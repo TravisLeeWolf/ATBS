@@ -1,0 +1,12 @@
+1. assert spam < 10, 'Spam is less than 10'
+2. assert eggs.lower() == bacon.lower(), 'They can't be the same'
+3. assert True, 'Always true!'
+4. import logging, logging.basicConfig()
+5. import logging, logging.basicConfig(filename='')
+6. DEBUG, INFO, WARNING, ERROR, CRITICAL
+7. logging.disable()
+8. Later on it's easier to use the above than to remove each print
+9. STEP moves to the next step, OVER runs over the code in a function, OUT runs through while stepping inside a function
+10. At a breakpoint or when an error occurs?
+11. A point to tell the debugger to stop
+12. Shift + F9

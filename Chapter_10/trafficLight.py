@@ -2,7 +2,7 @@
 # trafficLight.py - Learning to use the assert function
 
 market_2nd = {'ns': 'green', 'ew': 'red'}
-mission_16th = {'ns': 'ref', 'ew': 'green'}
+mission_16th = {'ns': 'red', 'ew': 'green'}
 
 def switchLights(stoplight):
     for key in stoplight.keys():
