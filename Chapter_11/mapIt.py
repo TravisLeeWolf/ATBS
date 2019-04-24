@@ -3,7 +3,7 @@
 #               to open up a Google Maps page for that location
 
 # Import libraries
-import webbrowser, sys, logging, os
+import webbrowser, sys, pyperclip, logging, os
 
 # Change directory so it saves in the right folder
 os.chdir('S:\\Documents\\GitHub\\ATBS\\Chapter_11')
@@ -16,8 +16,16 @@ logging.debug('Start of program.')
 if len(sys.argv) > 1:
     # Get address from command line
     address = ' '.join(sys.argv[1:])
-    #Log: Find out what the data is in address
-    logging.debug('The address variable is currently: ' + str(address))
+    # Log: Find out what the data is in address
+    logging.debug('The address variable from arguments: ' + str(address))
+else:
+    # Get address from clipboard
+    address = pyperclip.paste()
+    # Log: Find out what the data is if copied from clipboard
+    logging.debug('The address variable from clipboard: ' + str(address))
 
-# TODO: Get address from clipboard
+# Open Google Maps using address variable
+webbrowser.open('https://www.google.com/maps/place/' + address)
 
+
+logging.debug('End of program.s')

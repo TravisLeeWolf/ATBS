@@ -1,3 +1,3 @@
- 2019-04-24 15:36:59,715 - Start of program.
- 2019-04-24 15:36:59,716 - The address variable is currently:
-808 Bump
+ 2019-04-24 15:59:06,893 - Start of program.
+ 2019-04-24 15:59:06,893 - The address variable from arguments: 870 Valencia St, San Francisco, CA 94110
+ 2019-04-24 15:59:06,921 - End of program.s
