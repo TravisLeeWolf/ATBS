@@ -17,7 +17,7 @@ if len(sys.argv) > 1:
     # Get address from command line
     address = ' '.join(sys.argv[1:])
     #Log: Find out what the data is in address
-    logging.debug('The address variable is currently:\n' + str(address))
+    logging.debug('The address variable is currently: ' + str(address))
 
 # TODO: Get address from clipboard
 
