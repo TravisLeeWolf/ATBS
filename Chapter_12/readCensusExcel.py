@@ -4,6 +4,8 @@
 # Import libraries
 import os, openpyxl, pprint
 
+os.chdir('C:\\Users\\Travis\\Documents\\GitHub\\ATBS\\Chapter_12')
+
 print('Opening workbook...')
 wb = openpyxl.load_workbook('censuspopdata.xlsx')
 sheet = wb.get_sheet_by_name('Population by Census Tract')
